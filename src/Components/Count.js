@@ -12,7 +12,6 @@ const Count = props => {
     const showCount = () => {
         // Los cambios de estado son ASINCRONOS
         setCount(count + 5);
-        alert(count);
     };
 
     return (
